@@ -5,13 +5,11 @@ public class visibility {
     private String pri = "Private";
     protected String pro = "Protected";
 
+    public static void main(String args[]) {
+        visibility vis = new visibility();
+        System.out.println(vis.pub);
+        System.out.println(vis.pri);
+        System.out.println(vis.pro);
 
-
-public static void main(String args[]){
-    visibility vis = new visibility();
-    System.out.println(vis.pub);
-    System.out.println(vis.pri);
-    System.out.println(vis.pro);
-
-}
+    }
 }
